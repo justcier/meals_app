@@ -28,7 +28,9 @@ class MyApp extends StatelessWidget {
               //   fontFamily: 'RobotoCondensed',
               // ),
             ),
-        colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.pink)
+        colorScheme: ColorScheme.fromSwatch(
+                primarySwatch: Colors.pink,
+                backgroundColor: Colors.yellow.shade100)
             .copyWith(secondary: Colors.amberAccent),
       ),
       initialRoute: '/',

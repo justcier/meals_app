@@ -22,6 +22,7 @@ class CategoryMealsScreen extends StatelessWidget {
       return meal.categories.contains(categoryId);
     }).toList();
     return Scaffold(
+      backgroundColor: Theme.of(context).colorScheme.background,
       appBar: AppBar(
         title: Text(categoryTitle!),
       ),
